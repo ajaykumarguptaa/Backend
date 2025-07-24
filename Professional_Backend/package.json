@@ -4,7 +4,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node server.js"
+    "start": "node src/index.js"
   },
   "keywords": [],
   "author": "",
@@ -15,5 +15,8 @@
     "dotenv": "^17.2.0",
     "express": "^5.1.0",
     "mongoose": "^8.16.4"
+  },
+  "devDependencies": {
+    "prettier": "^3.6.2"
   }
 }

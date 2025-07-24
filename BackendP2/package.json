@@ -1,0 +1,27 @@
+{
+  "name": "backendp2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon -r dotenv/config --experimental-json-modules src/index.js"
+  },
+  "keywords": [
+    "index.js",
+    "node"
+  ],
+  "author": "Ajay kumar gupta",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cookies-parser": "^1.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.16.4",
+    "nodemon": "^3.1.10"
+  },
+  "devDependencies": {
+    "prettier": "^3.6.2"
+  }
+}
