@@ -65,7 +65,7 @@ userSchema.methods.isPasswordCorrect = async function (password) {
   return await bcrypt.compare(password, this.password);
 };
 
-//jesom WebToken it is bearer token, Who bear this token and send this token to the server, server send the data on those user just like a key..
+//json WebToken it is bearer token, Who bear this token and send this token to the server, server send the data on those user just like a key..
 
 //first write in .env
 
